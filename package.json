@@ -1,20 +1,20 @@
 {
-  "name": "bitandbang",
-  "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "chriswilcox",
+  "version": "0.0.1",
+  "description": "A personal card for Chris Wilcox (@chriswilcox47, GH: crwilcox)",
   "main": "index.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/crwilcox/npx-business-card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Chris Wilcox <npm@crwilcox.com> (http://crwilcox.com)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
