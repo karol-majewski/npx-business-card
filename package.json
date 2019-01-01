@@ -7,7 +7,7 @@
     "karol-majewski": "./build/card.js"
   },
   "files": [
-    "./build/card.js"
+    "build"
   ],
   "repository": {
     "type": "git",
