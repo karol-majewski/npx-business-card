@@ -8,4 +8,4 @@ npx karol-majewski
 
 # Credit
 
-I forked this from [Christopher Wilcox](https://github.com/bnb/crwilcox) 😄
+I forked this from [Christopher Wilcox](https://github.com/crwilcox) 😄
