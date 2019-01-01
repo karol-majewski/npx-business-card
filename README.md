@@ -1,8 +1,11 @@
 # Usage
+
 Via npx:
-```
-npx chriswilcox
+
+```sh
+npx karol-majewski
 ```
 
 # Credit
-I forked this from [Tierney Cyren](https://github.com/bnb/bitandbang) 😄
+
+I forked this from [Christopher Wilcox](https://github.com/bnb/crwilcox) 😄

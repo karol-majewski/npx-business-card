@@ -1,26 +1,39 @@
 {
-  "name": "chriswilcox",
-  "version": "0.0.1",
-  "description": "A personal card for Chris Wilcox (@chriswilcox47, GH: crwilcox)",
-  "main": "index.js",
+  "name": "karol-majewski",
+  "version": "0.1.0",
+  "description": "A personal card for Karol Majewski (@karol-majewski)",
+  "main": "./build/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "karol-majewski": "./build/card.js"
   },
+  "files": [
+    "./build/card.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/crwilcox/npx-business-card.git"
+    "url": "https://github.com/karol-majewski/npx-business-card.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "tsc"
   },
-  "keywords": [],
-  "author": "Chris Wilcox <npm@crwilcox.com> (http://crwilcox.com)",
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Karol Majewski",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1"
   },
   "devDependencies": {
-    "standard": "^12.0.1"
+    "@types/boxen": "^2.1.0",
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
   }
 }
