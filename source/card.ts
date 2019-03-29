@@ -10,7 +10,7 @@ const options: boxen.Options = {
 
 const data = {
   name: chalk.white('Karol Majewski'),
-  work: chalk.white('Software Engineer at Centra'),
+  work: chalk.white('Software Engineer at Unsplash'),
   twitter: chalk.cyan('https://twitter.com/karoljmajewski'),
   github: chalk.cyan('https://github.com/karol-majewski'),
   stackOverflow: chalk.cyan('https://stackoverflow.com/users/10325032'),
